@@ -1,0 +1,25 @@
+#bar {
+    height: 100px;
+    width: 80%;
+}
+
+#barcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#heading {
+    width: 90%;
+    margin: auto;
+    white-space: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+}
