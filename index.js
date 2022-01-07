@@ -12,6 +12,8 @@ var difference = Math.round(current.getTime() / 1000) - bar.value;
 var remainingSecs = bar.max - Math.round(current.getTime() / 1000);
 var remainingHours = Math.round(remainingSecs / 3600);
 var meterIncrement = Math.round(difference / remainingHours);
+var percent = Math.round((current.getTime() - start.getTime()) / (due.getTime() - start.getTime())  * 10000) / 100
+document.getElementById("percent").innerHTML = percent;
 console.log(remainingHours);
 
 var label = document.getElementById("label");

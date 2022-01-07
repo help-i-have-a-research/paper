@@ -1,6 +1,7 @@
 #bar {
     height: 100px;
     width: 80%;
+    display: block;
 }
 
 #barcontainer {
@@ -8,18 +9,15 @@
     justify-content: center;
 }
 
-#heading {
+.heading {
     width: 90%;
     margin: auto;
     white-space: nowrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.center {
     text-align: center;
 }
 
-#content {
+.content {
     display: flex;
     align-items: center;
 }
