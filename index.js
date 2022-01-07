@@ -1,3 +1,5 @@
+// i did this in like an hour for obvious reasons so this sucks
+
 var due = new Date("2022-01-12T18:00:00Z");
 var start = new Date("2021-09-08T12:35:00Z"); // or just use a unix timestamp
 var current = new Date();
